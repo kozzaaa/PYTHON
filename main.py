@@ -133,3 +133,37 @@ print(wiek.isdigit())
 zdanie = "O 16:30 kończymy zajecia"
 print(zdanie[0].isupper())
 
+#############################################################
+#
+# W Domu: 8.03
+#
+#############################################################
+
+dane = "milosz"
+
+# Funkcja islower zwraca wartość różną od zera gdy argument,
+# który został przekazany do funkcji jest małą literą alfabetu.
+# W przeciwnym wypadku funkcja zwraca wartość zero.
+
+print(dane.islower())
+
+# szerokość - całkowita szerokość napisu.
+# fillchar - pełen znaków.
+
+print(dane.center(10, "g"))
+
+# Łączenie listy stringów
+# Zamiast używać pętli for do łączenia kolejnych elementów listy, możesz użyć metody join().
+# Wywołaj ją na stringu, który ma znaleźć się pomiędzy kolejnymi elementami.
+# Może to być pusty string jak powyżej, lub np. spacja: jeżeli chcesz połączyć wyrazy.
+
+print(dane.join(" SPACJA "))
+
+# Metoda zwraca True, jeżeli wszystkie znaki w ciągu znakowym da się pokazać na ekranie / da się wydrukować.
+# Spacja (0x20 ASCII) również jest uważana za drukowalną.
+# Metoda również zwraca True, jeżeli ciąg znakowy jest pusty.
+# Gdy w ciągu znakowym pojawi się choćby jeden niedrukowalny znak, wówczas metoda zwraca wartość False.
+
+print(dane.isprintable())
+
+
