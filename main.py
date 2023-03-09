@@ -1,6 +1,6 @@
 #############################################################
 #
-# Lekcja: 20.02
+# Lekcja: 20.02.2023
 #
 #############################################################
 
@@ -41,7 +41,7 @@ print(dane)
 
 #############################################################
 #
-# Lekcja: 24.02
+# Lekcja: 24.02.2023
 #
 #############################################################
 
@@ -87,7 +87,7 @@ print(ile("CAATAAAAAAG"))
 
 #############################################################
 #
-# Lekcja: 27.02
+# Lekcja: 27.02.2023
 #
 #############################################################
 dane = "Jan Kowalski"
@@ -135,7 +135,7 @@ print(zdanie[0].isupper())
 
 #############################################################
 #
-# W Domu: 8.03
+# W Domu: 8.03.2023
 #
 #############################################################
 
@@ -166,4 +166,44 @@ print(dane.join(" SPACJA "))
 
 print(dane.isprintable())
 
+#############################################################
+#
+# W Zaliczenie: 09.03.2023
+#
+#############################################################
 
+print("Da Bóg kiedyś zasiąść w Polsce wolnej")
+print("Od żyta złotej, od lasów szumiącej,")
+print("Ba Bóg, a przyjdzie dzień nieustający")
+print("Dla srebnych pługów udęki mozolnej")
+
+###
+
+a = 40
+b = 18
+
+suma = a + b
+print(suma)
+
+roznica = a - b
+print(roznica)
+
+iloraz = a * b
+print(iloraz)
+
+iloraz_all = a // b
+print(iloraz_all)
+
+reszta = a % b
+print(reszta)
+
+potenga = a ** 2
+print(potenga)
+
+###
+
+def name():
+    a = int(input("Podaj bok a: "))
+    b = int(input("Podaj bok b: "))
+    print("f=", a + b)
+name()
